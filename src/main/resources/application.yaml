@@ -1,0 +1,21 @@
+server:
+  port: 18070
+spring:
+  cloud:
+    gateway:
+      httpclient:
+        ssl:
+          useInsecureTrustManager: true
+      routes:
+        - id: one
+          uri: "https://example.org/proxyOne"
+          predicates:
+            - Path=/api/v1/proxyOne/**
+        - id: two
+          uri: "https://example.org/proxyTwo"
+          predicates:
+            - Path=/api/v1/proxyTwo/**
+logging:
+  level:
+    root: WARN
+    org.springframework.cloud.gateway: DEBUG
