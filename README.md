@@ -1,6 +1,6 @@
 ## Proxy Gateway
 
-https://www.uparix.com/jenkins/buildStatus/icon?job=proxy-gateway
+[![Build Status](https://www.uparix.com/jenkins/buildStatus/icon?job=proxy-gateway)](https://www.uparix.com/jenkins/buildStatus/icon?job=proxy-gateway)
 
 ### A spring cloud gateway application for development purposes.
 
