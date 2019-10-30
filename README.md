@@ -2,7 +2,7 @@
 
 ### A spring cloud gateway application for development purposes.
 
-To tart the gateway, simply run in the repository root (location of pom.xml):
+To start the gateway, simply run in the repository root (location of pom.xml):
 ```
 mvn spring-boot:run
 ```
