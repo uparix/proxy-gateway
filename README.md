@@ -1,5 +1,7 @@
 ## Proxy Gateway
 
+https://www.uparix.com/jenkins/buildStatus/icon?job=proxy-gateway
+
 ### A spring cloud gateway application for development purposes.
 
 To start the gateway, simply run in the repository root (location of pom.xml):
