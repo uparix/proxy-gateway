@@ -86,12 +86,10 @@
                     <id>uparix-nexus-releases</id>
                     <url>https://www.uparix.com/nexus/repository/maven-releases/</url>
                 </repository>
-                <!--
                 <snapshotRepository>
                     <id>uparix-nexus-snapshots</id>
                     <url>https://www.uparix.com/nexus/repository/maven-snapshots/</url>
                 </snapshotRepository>
-                -->
             </distributionManagement>
         </profile>
         <profile>
