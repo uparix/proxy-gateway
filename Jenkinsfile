@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                sh 'mvn -B -DskipTests -Puparix-releases clean package'
+                sh 'mvn -B -DskipTests clean package'
             }
         }
     }
