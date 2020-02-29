@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                sh 'mvn -B -DskipTests -Puparix-maven clean compile'
+                sh 'mvn -B -DskipTests clean compile'
             }
         }
     }
