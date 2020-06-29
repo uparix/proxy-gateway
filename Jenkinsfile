@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                sh '/root/.sdkman/candidates/maven/current/bin/mvn -B -DskipTests -P uparix-releases -X clean install'
+                sh 'mvn -B -DskipTests -P uparix-releases -X clean install'
             }
         }
     }
