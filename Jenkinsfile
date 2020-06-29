@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                sh 'mvn -B -DskipTests -P uparix-releases clean install'
+                sh 'mvn -B -DskipTests -P uparix-releases -X clean install'
             }
         }
     }
